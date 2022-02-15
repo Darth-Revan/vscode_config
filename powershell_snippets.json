@@ -1,0 +1,38 @@
+{
+    "File header": {
+        "prefix": [
+            "header",
+            "copyright"
+        ],
+        "body": [
+            "# $1",
+            "#",
+            "# Author:\t$2",
+            "# Date:\t\t$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE",
+            "# License:\tCopyright (c) $CURRENT_YEAR by $3. All rights reserved.",
+            "$0"
+        ],
+        "description": "A simple file header including license information"
+    },
+    "Function documentation": {
+        "prefix": "doc",
+        "body": [
+            "<#",
+            ".Synopsis",
+            "$1",
+            "",
+            ".Description",
+            "$2",
+            "",
+            ".Parameter $3",
+            "$4",
+            "",
+            ".Example",
+            "$5",
+            "",
+            "#>",
+            "$0"
+        ],
+        "description": ""
+    }
+}
